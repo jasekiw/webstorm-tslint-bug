@@ -1,0 +1,44 @@
+{
+  "name": "tslint-tests",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "tslint --type-check -c tslint.json --project tsconfig.json"
+  },
+  "author": "Jason Gallavin <jasongallavin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.1.0",
+    "tslint-eslint-rules": "^4.0.0",
+    "typescript": "~2.2.1"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.0.1",
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/compiler-cli": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/platform-server": "2.4.8",
+    "@ionic-native/core": "3.4.2",
+    "@ionic-native/in-app-browser": "^3.4.4",
+    "@ionic-native/keyboard": "^3.4.4",
+    "@ionic-native/splash-screen": "3.4.2",
+    "@ionic-native/sqlite": "^3.4.4",
+    "@ionic-native/status-bar": "3.4.2",
+    "@ionic/cloud-angular": "^0.12.0",
+    "@ionic/storage": "2.0.1",
+    "angular-svg-round-progressbar": "^1.0.5",
+    "angular2-jwt": "^0.1.25",
+    "ionic-angular": "3.0.1",
+    "ionic-extended-components": "0.0.4",
+    "ionicons": "3.0.0",
+    "raven-js": "^3.14.0",
+    "rxjs": "5.1.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "^0.8.4"
+  }
+}
