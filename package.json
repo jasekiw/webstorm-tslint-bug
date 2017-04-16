@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint": "tslint --type-check -c tslint.json --project tsconfig.json"
+    "lint": "tslint -c tslint.json --project tsconfig.json"
   },
   "author": "Jason Gallavin <jasongallavin@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "tslint": "^5.1.0",
+    "tslint": "^3.15.1",
     "typescript": "~2.2.1"
   },
   "dependencies": {
